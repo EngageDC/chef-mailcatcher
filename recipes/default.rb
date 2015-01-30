@@ -14,7 +14,7 @@ case node['platform_family']
         package "g++"
         package "ruby-dev"
     when "rhel", "fedora", "suse"
-        package "sqlite3"
+        package "sqlite"
 end
 
 # Install MailCatcher
